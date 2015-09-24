@@ -1212,6 +1212,11 @@ impl DocumentMethods for Document {
         self.encoding_name.borrow().clone()
     }
 
+    // https://dom.spec.whatwg.org/#dom-document-charset
+    fn Charset(&self) -> DOMString {
+        self.encoding_name.borrow().clone()
+    }
+
     // https://dom.spec.whatwg.org/#dom-document-inputencoding
     fn InputEncoding(&self) -> DOMString {
         self.encoding_name.borrow().clone()
