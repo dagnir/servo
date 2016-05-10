@@ -1,4 +1,4 @@
-% JavaScript: Servo's only garbage collector
+# JavaScript: Servo's only garbage collector
 
 A web browser's purpose in life is to mediate interaction between a user and
 an application (which we somewhat anachronistically call a 'document').
